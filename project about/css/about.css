@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 1024px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px auto;
+    margin-top: 40px;
+    border: 3px solid black;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid;
+    min-width: 700px;
+}
+
+.box_images {
+    min-width: 400px;
+    margin-right: 10px;
+}
+
+.text>p {
+    margin-top: 0px;
+}
+
+.container:nth-child(4) {
+    border-bottom: 0px solid;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}

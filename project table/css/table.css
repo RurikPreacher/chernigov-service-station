@@ -1,0 +1,20 @@
+*/ {
+    margin: 0px;
+    height: 0px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+th:first-of-type {
+    background-color: yellow;
+}
